@@ -304,6 +304,9 @@ textarea {
     background-color: #66BDA4;
     min-height: 310px;
 }
+.txt-bold{
+    font-weight: 900;
+}
 .txt-verde{
     color: #004025;
 }
