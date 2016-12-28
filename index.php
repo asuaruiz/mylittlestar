@@ -79,26 +79,26 @@
         <div class="lin-left">
           <h3 class="txt-bold txt-21">Contactanos</h3>
           <br>
-          <form>
+          <div id="form">
             <div class="form-group">
               <label for="exampleInputEmail1">Nombre</label>
-              <input type="name" class="form-control" id="inputName" placeholder="">
+              <input type="name" name="nombre" class="form-control" id="inputName" placeholder="">
             </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Mail</label>
-              <input type="email" class="form-control" id="inputEmail1" placeholder="">
+              <input type="email" name="email" class="form-control" id="inputEmail" placeholder="">
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Telefono</label>
-              <input type="phone" class="form-control" id="inputPhone1" placeholder="">
+              <input type="phone" name="telefono" class="form-control" id="inputPhone" placeholder="">
             </div>
             <div class="form-group">
               <label for="inputMessage">Mensaje</label>
-              <textarea class="form-control" rows="3"></textarea>
+              <textarea name="mensaje" class="form-control" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-md pull-right txt-verde">ENVIAR</button>
+            <button id="btnForm" type="submit" class="btn btn-md pull-right txt-verde">ENVIAR</button>
           </div>
-        </form>
+        </div>
       </div>
     </div>
   </section>
@@ -114,6 +114,7 @@
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/6.2.0/validator.min.js"></script>
   <script>
     smoothScroll.init();
   </script>
